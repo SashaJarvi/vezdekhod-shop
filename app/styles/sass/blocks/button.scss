@@ -1,0 +1,21 @@
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 14px 25px;
+
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background: linear-gradient(to left, $accent 50%, $darkgrey 50%) right;
+  background-size: 200%;
+  border: none;
+  transition: all .5s ease-out;
+
+  &:hover, &:focus {
+    background-position: left;
+  }
+}
